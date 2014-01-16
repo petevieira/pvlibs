@@ -1,9 +1,17 @@
+/**
+ * \file RingBuffer.h
+ * \brief Template class for RingBuffer
+*/
+
 #ifndef RINGBUFFER_H
 #define RINGBUFFER_H
 
 #include <iostream>
 #include <stdio.h>
 
+/**
+ * \brief Templated RingBuffer class of user-defined size.
+*/
 template <typename T>
 class RingBuffer
 {
